@@ -1,0 +1,5 @@
+1,Denetimsiz Makine Ogrenmesi,Elif Kartal,2023,408
+2,Veri Madenciligi ve Makine Ogrenmesi,Elif Kartal,2019,392
+3,R ile Veri Madenciligi Uygulamalari,Elif Kartal,2016,295
+4,Yaratici Drama Bibliyografyasi,Zeki Ozen,2014,104
+5,isletme Enformatigine Giris,Zeki Ozen,2019,188
