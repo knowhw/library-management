@@ -241,7 +241,7 @@ Main Menu
 				
 			elif "Linux" in platform.system() and case == '5': 
 			
-				key = input('are you sure you want to delete the library? (y/n):')
+				key = input('are you sure you want to delete the books file? (y/n):')
 						
 				
 				lib.library_delete(key)
