@@ -44,7 +44,7 @@ class Library:
 				
 				if line.lower().find(match) > -1:
 					ID, title, author, published, pages = line.split(",")
-					print("#", "'%s'" % title, author)
+					print("#%s" % ID, "'%s'" % title, author)
 					
 					count+=1
 		else:
@@ -182,13 +182,15 @@ Main Menu
 		lib = Library()
 		
 		
+		
+		# lib.list_book(author)
 		# lib.add_book(attr)
 		# lib.remove_book(title)
-		# lib.list_book(author)
+		
 		# lib.file_closed()
 		
 		
-		case = input("%s\nEnter a choice (1-5):" % menu)
+		case = input("%s\nEnter a choice (1-4):" % menu)
 		
 		
 		
