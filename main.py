@@ -173,7 +173,7 @@ Main Menu
  3. Remove Book
  4. Search by Word
  
- 5. Delete
+ 5. All Delete
  q. Exit
  
 """
