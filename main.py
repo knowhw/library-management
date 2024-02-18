@@ -173,7 +173,6 @@ Main Menu
  3. Remove Book
  4. Search by Word
  
- 5. All Delete
  q. Exit
  
 """
@@ -184,7 +183,6 @@ Main Menu
 		# lib.remove_book(title)
 		# lib.list_book(author)
 		# lib.file_closed()
-		# lib.library_delete(key)
 		
 		
 		case = input("%s\nEnter a choice (1-5):" % menu)
@@ -241,12 +239,12 @@ Main Menu
 				
 			elif "Linux" in platform.system() and case == '5': 
 			
-				key = input('are you sure you want to delete the books file? (y/n):')
+				# key = input('are you sure you want to delete the books file? (y/n):')
 						
 				
-				lib.library_delete(key)
+				# lib.library_delete(key)
 				# kitapligi klasorden siliyoruz
-				system('clear')	
+				# system('clear')	
 					
 				break
 				
