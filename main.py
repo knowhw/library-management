@@ -6,6 +6,7 @@ from os import system as console
 import sys
 
 
+
 class Library:
 	
 	def __init__(self):
@@ -151,8 +152,10 @@ class Library:
 		if key == 'y':
 			
 			if "Linux" in platform.system(): 
-				console("rm books.txt")
+				""""""
+				# console("rm books.txt")
 				# kitapligi sil
+				
 				
 		self.list_book()
 				
