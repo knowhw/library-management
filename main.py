@@ -19,8 +19,6 @@ class Library:
 		del self.books
 	
 	
-	
-	
 	def list_book(self, match=''):
 		
 		match = match.lower()
@@ -156,7 +154,6 @@ class Library:
 				console("rm books.txt")
 				# kitapligi sil
 				
-				
 		self.list_book()
 				
 				
@@ -165,12 +162,8 @@ class Library:
 
 if __name__ == '__main__':
 
-	
-	
 	while 1:
 		
-		
-
 		menu="""
 Main Menu
 -------------
