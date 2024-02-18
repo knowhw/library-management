@@ -1,12 +1,8 @@
 
 from os import system
 import platform
-
-from management import Library
-
 from os import system as console
 # from platform import system
-
 import sys
 
 
