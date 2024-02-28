@@ -12,7 +12,8 @@ class Library:
 	def __init__(self):
 
 		self.books = open("books.txt", "a+")
-		
+		# workdir
+		os.chdir(".")
 
 
 	def file_closed(self):
@@ -152,9 +153,9 @@ class Library:
 		if key == 'y':
 			
 			if "Linux" in platform.system(): 
-				""""""
 				# console("rm books.txt")
 				# kitapligi sil
+				os.remove("book.txt")
 				
 				
 		self.list_book()
