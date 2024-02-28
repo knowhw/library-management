@@ -1,5 +1,6 @@
 
-from os import system
+from os import system, chdir
+from os import remove
 import platform
 from os import system as console
 # from platform import system
@@ -13,7 +14,7 @@ class Library:
 
 		self.books = open("books.txt", "a+")
 		# workdir
-		os.chdir(".")
+		chdir(".")
 
 
 	def file_closed(self):
@@ -155,7 +156,7 @@ class Library:
 			if "Linux" in platform.system(): 
 				# console("rm books.txt")
 				# kitapligi sil
-				os.remove("book.txt")
+				remove("books.txt")
 				
 				
 		self.list_book()
@@ -177,6 +178,7 @@ Main Menu
  3. Remove Book
  4. Search by Word
  
+ 5. Delete Lib.
  q. Exit
  
 """
@@ -245,12 +247,12 @@ Main Menu
 				
 			elif "Linux" in platform.system() and case == '5': 
 			
-				# key = input('are you sure you want to delete the books file? (y/n):')
+				key = input('are you sure you want to delete the books file? (y/n):')
 						
 				
-				# lib.library_delete(key)
+				lib.library_delete(key)
 				# kitapligi klasorden siliyoruz
-				# system('clear')	
+				system('clear')	
 					
 				break
 				
